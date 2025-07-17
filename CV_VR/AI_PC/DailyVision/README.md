@@ -34,7 +34,7 @@
 
 <h2 id="3-folder-structure">3. Folder Structure</h2>
 <pre><code>CV_VR/AI_PI/DailyVision/
-├── main.py
+├── vision_main.py
 ├── requirements.txt
 ├── images/
 │   ├── traffic_red.jpg
