@@ -86,9 +86,8 @@ Detected a signboard: STOP</code></pre>
 
 <h2>🏁 Acknowledgements</h2>
 <ul>
-    <li>Qualcomm AI Hub</li>
+    <li>Qualcomm AI Hub EasyOCR</li>
     <li>Ultralytics YOLOv8</li>
-    <li>EasyOCR</li>
 </ul>
 
 </body>
