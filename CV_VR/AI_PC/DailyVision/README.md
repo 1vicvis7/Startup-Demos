@@ -20,8 +20,17 @@
     <li><a href="#7-acknowledgements">7. Acknowledgements</a></li>
 </ul>
 
+
 <h2 id="1-overview">1. Overview</h2>
-<p><strong>DailyVision</strong> is an Edge AI-powered assistive vision system designed to detect traffic lights and signboards in real-time, extract relevant text, and provide voice feedback to the user. It is optimized for low-power edge devices and integrates object detection, OCR, and text-to-speech technologies.</p>
+<p>
+    <strong>DailyVision</strong> is an Edge AI-powered assistive vision system designed to enhance situational awareness for individuals, especially those with visual impairments. While it excels at detecting traffic lights and signboards in real-time, its capabilities extend far beyond traffic navigation.
+</p>
+<p>
+    DailyVision is built to support users in a wide range of daily activities by recognizing visual cues in their environment, extracting relevant text, and providing real-time voice feedback. Whether navigating busy streets, identifying building entrances, reading public notices, or interpreting directional signs in unfamiliar areas, DailyVision acts as a smart visual assistant.
+</p>
+<p>
+    Optimized for low-power edge devices, the system integrates advanced technologies such as object detection, optical character recognition (OCR), and offline text-to-speech (TTS) to deliver fast, reliable, and private assistance—without relying on constant 
+
 
 <h2 id="2-features">2. Features</h2>
 <ul>
@@ -61,31 +70,35 @@
 <h3>🧪 4.3 Environment Setup</h3>
 <p>To set up the Python environment required for running the application, follow the steps below. This ensures all dependencies are installed in an isolated and reproducible environment.</p>
 
-<pre><code># Step 1: Create your working directory
-mkdir my_working_directory
-cd my_working_directory
+<p><strong>Step 1:</strong> Create your working directory.</p>
+<pre><code>mkdir my_working_directory
+cd my_working_directory</code></pre>
 
-# Step 2: Download Your Application
-git clone -n --depth=1 --filter=tree:0 https://github.com/qualcomm/Startup-Demos.git
+<p><strong>Step 2:</strong> Download your application using Git with sparse checkout to only fetch the necessary folder.</p>
+<pre><code>git clone -n --depth=1 --filter=tree:0 https://github.com/qualcomm/Startup-Demos.git
 cd Startup-Demos
 git sparse-checkout set --no-cone /CV_VR/AI_PI/DailyVision
 git checkout
-cd CV_VR/AI_PI/DailyVision
+cd CV_VR/AI_PI/DailyVision</code></pre>
 
-# Step 3: Create a new Conda environment with Python 3.12
-conda create -n myenv python=3.10
+<p><strong>Step 3:</strong> Create a new Conda environment with Python 3.10.</p>
+<pre><code>conda create -n myenv python=3.10</code></pre>
 
-# Step 4: Activate the environment
-conda activate myenv
+<p><strong>Step 4:</strong> Activate the environment.</p>
+<pre><code>conda activate myenv</code></pre>
 
-# Step 5: Install the required dependencies
-pip install -r requirements.txt
+<p><strong>Step 5:</strong> Install the required dependencies from the <code>requirements.txt</code> file.</p>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-# Step 6: Run the application
-python vision_main.py
-</code></pre>
 <p>💡 Make sure you have Miniconda or Anaconda installed before running these commands.</p>
-<p>Make sure to place your test images in the <code>images/</code> folder and update the image path in <code>main.py</code>.</p>
+
+<hr>
+
+<h3>🚀 4.4 Running the Application</h3>
+<p><strong>Step 6:</strong> Run the application using the main script.</p>
+<pre><code>python vision_main.py</code></pre>
+
+<p>📁 Make sure to place your test images in the <code>images/</code> folder and update the image path in <code>main.py</code> accordingly.</p>
 
 <h2 id="5-sample-output">5. Sample Output</h2>
 <ul>
