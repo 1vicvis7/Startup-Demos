@@ -95,7 +95,7 @@ python vision_main.py
     </li>
     <li>Console output:
         <pre><code>Detected a traffic light: with color: red
-Detected a signboard: STOP</code></pre>
+Detected a person:</code></pre>
     </li>
     <li>Voice feedback via speakers</li>
 </ul>
