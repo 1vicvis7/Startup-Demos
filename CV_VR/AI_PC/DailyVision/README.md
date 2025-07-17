@@ -91,7 +91,7 @@ python vision_main.py
 <ul>
     <li>Annotated image saved as <code>annotated_output.jpg</code></li>
     <li>Sample annotated image:<br>
-            <img src="./images/demo_image.jpg" alt="Annotated Output" width="500">
+            <img src="./images/demo_image.jpg" alt="Annotated Output" width="333">
     </li>
     <li>Console output:
         <pre><code>Detected a traffic light: with color: red
