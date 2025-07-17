@@ -1,4 +1,4 @@
-# //===------DailyVision-main.py----------------------------------------------===//
+# //===-----------------vision.py----------------------------------------------===//
 # // Part of the Startup-Demos Project, under the MIT License
 # // See https://github.com/qualcomm/Startup-Demos/blob/main/LICENSE.txt
 # // for license information.
