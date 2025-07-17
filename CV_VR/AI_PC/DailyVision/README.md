@@ -90,6 +90,7 @@ python vision_main.py
 <h2 id="5-sample-output">5. Sample Output</h2>
 <ul>
     <li>Annotated image saved as <code>annotated_output.jpg</code></li>
+    ![N|Solid](./images/demo_image.jpg)
     <li>Console output:
         <pre><code>Detected a traffic light: with color: red
 Detected a signboard: STOP</code></pre>
